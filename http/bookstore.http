@@ -1,0 +1,32 @@
+### Get all books
+GET http://localhost:8080/rest/bookstore/books
+
+### Get book by id
+GET http://localhost:8080/rest/bookstore/books/1
+
+### Add book
+POST http://localhost:8080/rest/bookstore/books
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Książka o wielu stronach",
+  "author": "Nieznany Nieznajomy",
+  "isbn": "DSGV-1234-AD23",
+  "year": 2025
+}
+
+### Update book
+PUT http://localhost:8080/rest/bookstore/books
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Książka o wielu stronach 2",
+  "author": "Nieznany Nieznajom+y",
+  "isbn": "DSGV-1234-AD23",
+  "year": 2025
+}
+
+### Delete book
+DELETE http://localhost:8080/rest/bookstore/books/1

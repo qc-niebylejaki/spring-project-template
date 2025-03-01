@@ -1,0 +1,18 @@
+-- 1. lombok
+2. junit & mockito & assertj
+-- 3. REST API
+4. Kafka client
+-- 5. JPA examples
+-- 6. docker-compose
+-- 7. Flyway
+-- 8. application-dev.properties
+9. prometheus i health-check z actuatora
+10. swagger
+11. schedulery
+12. rest client builder
+--13. mapstruct
+14. klasa configuration properties
+--15. jakiś filtr
+16. custom jackson provider
+17. pageable
+18. connectory do redisa i hazelcasta
